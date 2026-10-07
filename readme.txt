@@ -1,21 +1,21 @@
 == Parlour ==
 
 Contributors: Troy Chaplin
-Requires at least: 7.0-RC2
-Tested up to: 7.0-RC2
-Requires PHP: 5.7
+Requires at least: 7.0
+Tested up to: 7.0
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
 
-A WordPress block theme. Quiet, precise, editorial.
+A WordPress block theme served in flavours. Each flavour is a complete colour pattern, not just a light or dark switch. Pick one in the Site Editor and the whole site follows: templates, patterns, and block styles included.
 
 
 == Changelog ==
 
-= 1.0.0 =
+= 0.0.1 =
 * Initial release
 
 
