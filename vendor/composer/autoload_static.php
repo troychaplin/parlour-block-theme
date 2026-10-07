@@ -22,10 +22,6 @@ class ComposerStaticInit54421d75c2c79028332951ea18376abd
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Octave\\Block_Functions' => __DIR__ . '/../..' . '/classes/class-block-functions.php',
-        'Octave\\Enqueues' => __DIR__ . '/../..' . '/classes/class-enqueues.php',
-        'Octave\\Post_Types' => __DIR__ . '/../..' . '/classes/class-post-types.php',
-        'Octave\\Register_Blocks' => __DIR__ . '/../..' . '/classes/class-register-blocks.php',
         'PHPCSUtils\\AbstractSniffs\\AbstractArrayDeclarationSniff' => __DIR__ . '/..' . '/phpcsstandards/phpcsutils/PHPCSUtils/AbstractSniffs/AbstractArrayDeclarationSniff.php',
         'PHPCSUtils\\BackCompat\\BCFile' => __DIR__ . '/..' . '/phpcsstandards/phpcsutils/PHPCSUtils/BackCompat/BCFile.php',
         'PHPCSUtils\\BackCompat\\BCTokens' => __DIR__ . '/..' . '/phpcsstandards/phpcsutils/PHPCSUtils/BackCompat/BCTokens.php',
@@ -78,6 +74,10 @@ class ComposerStaticInit54421d75c2c79028332951ea18376abd
         'PHPCSUtils\\Utils\\TypeString' => __DIR__ . '/..' . '/phpcsstandards/phpcsutils/PHPCSUtils/Utils/TypeString.php',
         'PHPCSUtils\\Utils\\UseStatements' => __DIR__ . '/..' . '/phpcsstandards/phpcsutils/PHPCSUtils/Utils/UseStatements.php',
         'PHPCSUtils\\Utils\\Variables' => __DIR__ . '/..' . '/phpcsstandards/phpcsutils/PHPCSUtils/Utils/Variables.php',
+        'Parlour_Block_Theme\\Block_Functions' => __DIR__ . '/../..' . '/classes/class-block-functions.php',
+        'Parlour_Block_Theme\\Enqueues' => __DIR__ . '/../..' . '/classes/class-enqueues.php',
+        'Parlour_Block_Theme\\Post_Types' => __DIR__ . '/../..' . '/classes/class-post-types.php',
+        'Parlour_Block_Theme\\Register_Blocks' => __DIR__ . '/../..' . '/classes/class-register-blocks.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

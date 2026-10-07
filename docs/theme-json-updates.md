@@ -1,6 +1,6 @@
 # Theme.json Updates
 
-Below is a proposed `theme.json` aligned with the Octave design system documented in [`design-system.md`](./design-system.md). Review notes appear underneath the JSON.
+Below is a proposed `theme.json` aligned with the Parlour design system documented in [`design-system.md`](./design-system.md). Review notes appear underneath the JSON.
 
 ```json
 {

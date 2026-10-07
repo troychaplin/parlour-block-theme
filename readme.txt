@@ -1,4 +1,4 @@
-== Octave ==
+== Parlour ==
 
 Contributors: Troy Chaplin
 Requires at least: 7.0-RC2
@@ -21,8 +21,8 @@ A WordPress block theme. Quiet, precise, editorial.
 
 == Copyright ==
 
-Octave WordPress Theme, (C) 2026 Troy Chaplin
-Octave is distributed under the terms of the GNU GPL.
+Parlour WordPress Theme, (C) 2026 Troy Chaplin
+Parlour is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

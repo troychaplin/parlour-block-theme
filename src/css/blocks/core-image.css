@@ -15,8 +15,8 @@ figure.wp-block-image figcaption {
     font-size: var(--wp--preset--font-size--small);
     color: var(--wp--preset--color--neutral-800);
     background-color: var(--wp--preset--color--base);
-    border-bottom-left-radius: var(--octave--radius-small);
-    border-bottom-right-radius: var(--octave--radius-small);
+    border-bottom-left-radius: var(--parlour--radius-small);
+    border-bottom-right-radius: var(--parlour--radius-small);
     padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--60) var(--wp--preset--spacing--50);
     margin-top: 0;
 }

@@ -4,13 +4,13 @@ return array(
 	'day-tracker' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'octave/day-tracker',
+		'name' => 'parlour/day-tracker',
 		'version' => '1.0.0',
 		'title' => 'Day Tracker',
 		'category' => 'theme',
 		'icon' => 'calendar',
 		'description' => 'Displays the current day number of the year, with an optional formatted date.',
-		'textdomain' => 'octave',
+		'textdomain' => 'parlour-block-theme',
 		'attributes' => array(
 			'prefix' => array(
 				'type' => 'string',
@@ -48,13 +48,13 @@ return array(
 	'pagination-count' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'octave/pagination-count',
+		'name' => 'parlour/pagination-count',
 		'version' => '1.0.0',
 		'title' => 'Pagination Count',
 		'category' => 'theme',
 		'icon' => 'admin-page',
 		'description' => 'Displays the current page and total page count for a Query Loop.',
-		'textdomain' => 'octave',
+		'textdomain' => 'parlour-block-theme',
 		'ancestor' => array(
 			'core/query'
 		),

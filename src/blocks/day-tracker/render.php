@@ -2,7 +2,7 @@
 /**
  * Render the Day Tracker block.
  *
- * @package Octave
+ * @package Parlour_Block_Theme
  *
  * @var array    $attributes Block attributes.
  * @var string   $content    Block default content.
@@ -11,8 +11,8 @@
 
 // wp_date() respects the site timezone, unlike date().
 $day       = (int) wp_date( 'z' ) + 1;
-$prefix    = isset( $attributes['prefix'] ) ? $attributes['prefix'] : __( 'Day No.', 'octave' );
-$separator = isset( $attributes['separator'] ) ? $attributes['separator'] : __( ' • ', 'octave' );
+$prefix    = isset( $attributes['prefix'] ) ? $attributes['prefix'] : __( 'Day No.', 'parlour-block-theme' );
+$separator = isset( $attributes['separator'] ) ? $attributes['separator'] : __( ' • ', 'parlour-block-theme' );
 $show_date = ! empty( $attributes['showDate'] );
 
 $output = sprintf( '%s %d', esc_html( $prefix ), $day );

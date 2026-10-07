@@ -1,8 +1,8 @@
-# Design Prompt: Octave — Default Style Variation
+# Design Prompt: Parlour — Default Style Variation
 
 ## Project Context
 
-I'm designing **Octave**, a versatile WordPress block theme built around Gutenberg's style variations system. The theme will ship with multiple style variations that swap the entire visual system — colors, typography, patterns, and custom interaction behaviors — while preserving the underlying structure.
+I'm designing **Parlour**, a versatile WordPress block theme built around Gutenberg's style variations system. The theme will ship with multiple style variations that swap the entire visual system — colors, typography, patterns, and custom interaction behaviors — while preserving the underlying structure.
 
 I need a design for the **default style variation**: the one that loads first, sets the tone for the brand, and acts as the neutral foundation from which other variations will diverge.
 

@@ -1,7 +1,7 @@
 import { registerFormatType, toggleFormat } from '@wordpress/rich-text';
 import { RichTextToolbarButton } from '@wordpress/block-editor';
 
-const FORMAT_NAME = 'octave/thin-font';
+const FORMAT_NAME = 'parlour/thin-font';
 
 registerFormatType( FORMAT_NAME, {
     title: 'Thin Font',

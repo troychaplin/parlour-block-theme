@@ -1,13 +1,13 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "octave/day-tracker",
+  "name": "parlour/day-tracker",
   "version": "1.0.0",
   "title": "Day Tracker",
   "category": "theme",
   "icon": "calendar",
   "description": "Displays the current day number of the year, with an optional formatted date.",
-  "textdomain": "octave",
+  "textdomain": "parlour-block-theme",
   "attributes": {
     "prefix": {
       "type": "string",

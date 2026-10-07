@@ -1,8 +1,8 @@
-# Octave — Design System
+# Parlour — Design System
 
-This document captures the design system for the **Default** style variation of the Octave WordPress block theme, as authored by Claude Design and stored in `_concepts/`. It is the source of truth for what the theme should ship; the current `theme.json` and template files are still catching up to it.
+This document captures the design system for the **Default** style variation of the Parlour WordPress block theme, as authored by Claude Design and stored in `_concepts/`. It is the source of truth for what the theme should ship; the current `theme.json` and template files are still catching up to it.
 
-The concept files live at `wp-content/themes/octave/_concepts/`:
+The concept files live at `wp-content/themes/parlour-block-theme/_concepts/`:
 
 - `tokens.css` — design tokens (colors, type, spacing, layout, breakpoints)
 - `octave-blocks.jsx` — shared primitives (Header, Footer, buttons, eyebrows, etc.)
@@ -498,7 +498,7 @@ Things in the concept that the current theme does not yet implement:
 
 ## 12. Open questions
 
-1. **Mock data source.** The on-canvas designs use a coffee-roaster brand ("Octave Coffee · Bristol"); the full pages use Troy Chaplin's portfolio. Confirm the theme ships generic — or are we building Troy's site directly?
+1. **Mock data source.** The on-canvas designs use a coffee-roaster brand ("Parlour Coffee · Bristol"); the full pages use Troy Chaplin's portfolio. Confirm the theme ships generic — or are we building Troy's site directly?
 2. **Releases as CPT?** `octave-troy-pages.jsx#ReleasesPage` and `octave-bean-archive.jsx#FullSingleBean` imply a custom post type. If yes, that's plugin territory, not theme.
 3. **Style variations.** The concept is the *default* — tagline says "many keys." What are the other style variations going to be? Color shift only, or do they swap fonts and patterns too?
 4. **Variable font axes.** Inter Tight and Source Serif 4 are both variable fonts on Google Fonts but ship as static `.woff2` files in `assets/fonts/`. Worth swapping to variable files to enable the 380/440/480 weights the concept uses.

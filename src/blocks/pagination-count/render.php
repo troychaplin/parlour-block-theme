@@ -2,7 +2,7 @@
 /**
  * Render the Pagination Count block.
  *
- * @package Octave
+ * @package Parlour_Block_Theme
  *
  * @var array    $attributes Block attributes.
  * @var string   $content    Block default content.
@@ -32,14 +32,14 @@ if ( $max_pages < 2 ) {
 }
 
 $separators = array(
-	'of'           => ' ' . __( 'of', 'octave' ) . ' ',
+	'of'           => ' ' . __( 'of', 'parlour-block-theme' ) . ' ',
 	'slash'        => '/',
 	'slash-spaced' => ' / ',
 	'dash'         => ' – ',
 );
 
 $separator = $separators[ $attributes['numberFormat'] ?? 'of' ] ?? $separators['of'];
-$prefix    = $attributes['prefix'] ?? __( 'Page', 'octave' );
+$prefix    = $attributes['prefix'] ?? __( 'Page', 'parlour-block-theme' );
 $text      = ( '' !== $prefix ? $prefix . ' ' : '' ) . $current_page . $separator . $max_pages;
 ?>
 <span <?php echo get_block_wrapper_attributes(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>><?php echo esc_html( $text ); ?></span>

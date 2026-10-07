@@ -9,13 +9,13 @@
 
 :root {
     /* Content Widths */
-    --octave--width-medium-size: 896px;
-    --octave--width-content-size: var(--wp--style--global--content-size);
-    --octave--width-wide-size: var(--wp--style--global--wide-size);
+    --parlour--width-medium-size: 896px;
+    --parlour--width-content-size: var(--wp--style--global--content-size);
+    --parlour--width-wide-size: var(--wp--style--global--wide-size);
     
     /* Border radius */
-    --octave--radius-small: 2px;
-    --octave--radius-medium: 4px;
-    --octave--radius-large: 8px;
-    --octave--radius-full: 50%;
+    --parlour--radius-small: 2px;
+    --parlour--radius-medium: 4px;
+    --parlour--radius-large: 8px;
+    --parlour--radius-full: 50%;
 }

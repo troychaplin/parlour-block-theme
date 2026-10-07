@@ -2,10 +2,10 @@
 /**
  * Enqueue theme assets and register pattern categories.
  *
- * @package Octave
+ * @package Parlour_Block_Theme
  */
 
-namespace Octave;
+namespace Parlour_Block_Theme;
 
 /**
  * Class Enqueues
@@ -45,7 +45,7 @@ class Enqueues {
 		$version = file_exists( $path ) ? filemtime( $path ) : wp_get_theme()->get( 'Version' );
 
 		wp_enqueue_style(
-			'octave-styles',
+			'parlour-styles',
 			get_theme_file_uri( 'assets/css/styles.css' ),
 			array(),
 			$version
@@ -61,7 +61,7 @@ class Enqueues {
 		if ( file_exists( $asset_file ) ) {
 			$asset = require $asset_file;
 			wp_enqueue_script(
-				'octave-script',
+				'parlour-script',
 				get_theme_file_uri( 'assets/js/script.js' ),
 				$asset['dependencies'],
 				$asset['version'],
@@ -84,10 +84,10 @@ class Enqueues {
 			wp_enqueue_block_style(
 				$block_name,
 				array(
-					'handle' => 'octave-block-' . $filename,
+					'handle' => 'parlour-block-' . $filename,
 					'src'    => get_theme_file_uri( 'assets/css/blocks/' . $filename . '.css' ),
 					'path'   => $file,
-					'deps'   => array( 'octave-styles' ),
+					'deps'   => array( 'parlour-styles' ),
 					'ver'    => $version,
 				)
 			);
@@ -103,7 +103,7 @@ class Enqueues {
 		if ( file_exists( $asset_file ) ) {
 			$asset = require $asset_file;
 			wp_enqueue_script(
-				'octave-editor',
+				'parlour-editor',
 				get_theme_file_uri( 'assets/js/editor.js' ),
 				$asset['dependencies'],
 				$asset['version'],

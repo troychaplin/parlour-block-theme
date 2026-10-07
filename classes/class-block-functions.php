@@ -2,10 +2,10 @@
 /**
  * Block-related filters and functions.
  *
- * @package Octave
+ * @package Parlour_Block_Theme
  */
 
-namespace Octave;
+namespace Parlour_Block_Theme;
 
 /**
  * Class Block_Functions
@@ -24,8 +24,8 @@ class Block_Functions {
      */
     public function register_pattern_categories(): void {
         register_block_pattern_category(
-            'octave-sections',
-            array( 'label' => __( 'Octave Sections', 'octave' ) )
+            'parlour-sections',
+            array( 'label' => __( 'Parlour Sections', 'parlour-block-theme' ) )
         );
     }
 }

@@ -22,7 +22,7 @@ import {
  * Option labels show sample output so the user picks by example.
  */
 const NUMBER_FORMATS = {
-	of: ` ${ __( 'of', 'octave' ) } `,
+	of: ` ${ __( 'of', 'parlour-block-theme' ) } `,
 	slash: '/',
 	'slash-spaced': ' / ',
 	dash: ' – ',
@@ -47,11 +47,11 @@ export default function Edit( { attributes, setAttributes } ) {
 	return (
 		<>
 			<InspectorControls>
-				<PanelBody title={ __( 'Settings', 'octave' ) }>
+				<PanelBody title={ __( 'Settings', 'parlour-block-theme' ) }>
 					<TextControl
 						__next40pxDefaultSize
 						__nextHasNoMarginBottom
-						label={ __( 'Prefix', 'octave' ) }
+						label={ __( 'Prefix', 'parlour-block-theme' ) }
 						value={ prefix }
 						onChange={ ( value ) =>
 							setAttributes( { prefix: value } )
@@ -60,7 +60,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					<SelectControl
 						__next40pxDefaultSize
 						__nextHasNoMarginBottom
-						label={ __( 'Number format', 'octave' ) }
+						label={ __( 'Number format', 'parlour-block-theme' ) }
 						value={ numberFormat }
 						options={ Object.entries( NUMBER_FORMATS ).map(
 							( [ value, sep ] ) => ( {

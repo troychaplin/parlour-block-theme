@@ -62,11 +62,11 @@ export default function Edit( { attributes, setAttributes } ) {
 	return (
 		<>
 			<InspectorControls>
-				<PanelBody title={ __( 'Settings', 'octave' ) }>
+				<PanelBody title={ __( 'Settings', 'parlour-block-theme' ) }>
 					<TextControl
 						__next40pxDefaultSize
 						__nextHasNoMarginBottom
-						label={ __( 'Prefix', 'octave' ) }
+						label={ __( 'Prefix', 'parlour-block-theme' ) }
 						value={ prefix }
 						onChange={ ( value ) =>
 							setAttributes( { prefix: value } )
@@ -74,7 +74,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					/>
 					<ToggleControl
 						__nextHasNoMarginBottom
-						label={ __( 'Show date', 'octave' ) }
+						label={ __( 'Show date', 'parlour-block-theme' ) }
 						checked={ showDate }
 						onChange={ ( value ) =>
 							setAttributes( { showDate: value } )
@@ -85,7 +85,7 @@ export default function Edit( { attributes, setAttributes } ) {
 							<TextControl
 								__next40pxDefaultSize
 								__nextHasNoMarginBottom
-								label={ __( 'Separator', 'octave' ) }
+								label={ __( 'Separator', 'parlour-block-theme' ) }
 								value={ separator }
 								onChange={ ( value ) =>
 									setAttributes( { separator: value } )
@@ -94,7 +94,7 @@ export default function Edit( { attributes, setAttributes } ) {
 							<SelectControl
 								__next40pxDefaultSize
 								__nextHasNoMarginBottom
-								label={ __( 'Date format', 'octave' ) }
+								label={ __( 'Date format', 'parlour-block-theme' ) }
 								value={ dateFormat }
 								options={ DATE_FORMATS.map( ( format ) => ( {
 									value: format,

@@ -2,10 +2,10 @@
 /**
  * Block registration.
  *
- * @package Octave
+ * @package Parlour_Block_Theme
  */
 
-namespace Octave;
+namespace Parlour_Block_Theme;
 
 /**
  * Class Register_Blocks

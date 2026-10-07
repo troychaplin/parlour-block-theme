@@ -7,10 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'Octave\\Block_Functions' => $baseDir . '/classes/class-block-functions.php',
-    'Octave\\Enqueues' => $baseDir . '/classes/class-enqueues.php',
-    'Octave\\Post_Types' => $baseDir . '/classes/class-post-types.php',
-    'Octave\\Register_Blocks' => $baseDir . '/classes/class-register-blocks.php',
     'PHPCSUtils\\AbstractSniffs\\AbstractArrayDeclarationSniff' => $vendorDir . '/phpcsstandards/phpcsutils/PHPCSUtils/AbstractSniffs/AbstractArrayDeclarationSniff.php',
     'PHPCSUtils\\BackCompat\\BCFile' => $vendorDir . '/phpcsstandards/phpcsutils/PHPCSUtils/BackCompat/BCFile.php',
     'PHPCSUtils\\BackCompat\\BCTokens' => $vendorDir . '/phpcsstandards/phpcsutils/PHPCSUtils/BackCompat/BCTokens.php',
@@ -63,4 +59,8 @@ return array(
     'PHPCSUtils\\Utils\\TypeString' => $vendorDir . '/phpcsstandards/phpcsutils/PHPCSUtils/Utils/TypeString.php',
     'PHPCSUtils\\Utils\\UseStatements' => $vendorDir . '/phpcsstandards/phpcsutils/PHPCSUtils/Utils/UseStatements.php',
     'PHPCSUtils\\Utils\\Variables' => $vendorDir . '/phpcsstandards/phpcsutils/PHPCSUtils/Utils/Variables.php',
+    'Parlour_Block_Theme\\Block_Functions' => $baseDir . '/classes/class-block-functions.php',
+    'Parlour_Block_Theme\\Enqueues' => $baseDir . '/classes/class-enqueues.php',
+    'Parlour_Block_Theme\\Post_Types' => $baseDir . '/classes/class-post-types.php',
+    'Parlour_Block_Theme\\Register_Blocks' => $baseDir . '/classes/class-register-blocks.php',
 );
